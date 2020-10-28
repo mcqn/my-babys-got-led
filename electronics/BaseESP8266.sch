@@ -30,6 +30,8 @@ F 0 "R10" V 10380 3800 50  0000 C CNN
 F 1 "R10k" V 10450 3800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10230 3800 50  0001 C CNN
 F 3 "" H 10300 3800 50  0000 C CNN
+F 4 "2331740" V 10300 3800 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/te-connectivity/crgh0603j10k/res-10k-5-0-2w-0603-thick-film/dp/2331740" V 10300 3800 50  0001 C CNN "Farnell Price/Stock"
 	1    10300 3800
 	-1   0    0    1   
 $EndComp
@@ -44,6 +46,7 @@ F 0 "T2" H 9900 2200 50  0000 L CNN
 F 1 "CONN_01X01" H 9900 2300 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9800 2250 50  0001 C CNN
 F 3 "" H 9800 2250 50  0000 C CNN
+F 4 "DNP" H 9800 2250 50  0001 C CNN "Description"
 	1    9800 2250
 	1    0    0    -1  
 $EndComp
@@ -58,6 +61,7 @@ F 0 "T1" V 9650 3300 50  0000 L CNN
 F 1 "CONN_01X01" V 9550 3300 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9600 3200 50  0001 C CNN
 F 3 "" H 9600 3200 50  0000 C CNN
+F 4 "DNP" V 9600 3200 50  0001 C CNN "Description"
 	1    9600 3200
 	0    1    1    0   
 $EndComp
@@ -74,6 +78,8 @@ F 0 "C2" V 10498 3800 50  0000 C CNN
 F 1 "C47nF" V 10589 3800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10788 3650 50  0001 C CNN
 F 3 "" H 10750 3800 50  0000 C CNN
+F 4 "2310565" V 10750 3800 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/multicomp/mc0603b473k250ct/cap-0-047-f-25v-10-x7r-0603/dp/1759031" V 10750 3800 50  0001 C CNN "Farnell Price/Stock"
 	1    10750 3800
 	1    0    0    -1  
 $EndComp
@@ -88,6 +94,8 @@ F 0 "R9" H 5770 2046 50  0000 L CNN
 F 1 "R560" H 5770 1955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5630 2000 50  0001 C CNN
 F 3 "" H 5700 2000 50  0000 C CNN
+F 4 "2502470" H 5700 2000 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/walsin/wr06x5600ftl/res-560r-1-75v-0603-thick-film/dp/2502470" H 5700 2000 50  0001 C CNN "Farnell Price/Stock"
 	1    5700 2000
 	1    0    0    -1  
 $EndComp
@@ -102,6 +110,8 @@ F 0 "R8" V 9880 4000 50  0000 C CNN
 F 1 "R560" V 9950 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9730 4000 50  0001 C CNN
 F 3 "" H 9800 4000 50  0000 C CNN
+F 4 "2502470" V 9800 4000 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/walsin/wr06x5600ftl/res-560r-1-75v-0603-thick-film/dp/2502470" V 9800 4000 50  0001 C CNN "Farnell Price/Stock"
 	1    9800 4000
 	-1   0    0    1   
 $EndComp
@@ -116,6 +126,8 @@ F 0 "R7" V 9430 4000 50  0000 C CNN
 F 1 "R560" V 9500 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9280 4000 50  0001 C CNN
 F 3 "" H 9350 4000 50  0000 C CNN
+F 4 "2502470" V 9350 4000 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/walsin/wr06x5600ftl/res-560r-1-75v-0603-thick-film/dp/2502470" V 9350 4000 50  0001 C CNN "Farnell Price/Stock"
 	1    9350 4000
 	-1   0    0    1   
 $EndComp
@@ -130,6 +142,8 @@ F 0 "R6" V 8980 4000 50  0000 C CNN
 F 1 "R560" V 9050 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8830 4000 50  0001 C CNN
 F 3 "" H 8900 4000 50  0000 C CNN
+F 4 "2502470" V 8900 4000 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/walsin/wr06x5600ftl/res-560r-1-75v-0603-thick-film/dp/2502470" V 8900 4000 50  0001 C CNN "Farnell Price/Stock"
 	1    8900 4000
 	-1   0    0    1   
 $EndComp
@@ -144,6 +158,8 @@ F 0 "D6" H 9800 3700 50  0000 C CNN
 F 1 "LED" H 9800 3500 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9800 3600 50  0001 C CNN
 F 3 "" H 9800 3600 50  0000 C CNN
+F 4 "2290332" H 9800 3600 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/kingbright/kp-2012seck/led-0805-250mcd-orange/dp/2290332" H 9800 3600 50  0001 C CNN "Farnell Price/Stock"
 	1    9800 3600
 	0    -1   -1   0   
 $EndComp
@@ -158,6 +174,8 @@ F 0 "D5" H 9350 3700 50  0000 C CNN
 F 1 "LED" H 9350 3500 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9350 3600 50  0001 C CNN
 F 3 "" H 9350 3600 50  0000 C CNN
+F 4 "2290332" H 9350 3600 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/kingbright/kp-2012seck/led-0805-250mcd-orange/dp/2290332" H 9350 3600 50  0001 C CNN "Farnell Price/Stock"
 	1    9350 3600
 	0    -1   -1   0   
 $EndComp
@@ -172,6 +190,8 @@ F 0 "D4" H 8900 3700 50  0000 C CNN
 F 1 "LED" H 8900 3500 50  0000 C CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8900 3600 50  0001 C CNN
 F 3 "" H 8900 3600 50  0000 C CNN
+F 4 "2290332" H 8900 3600 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/kingbright/kp-2012seck/led-0805-250mcd-orange/dp/2290332" H 8900 3600 50  0001 C CNN "Farnell Price/Stock"
 	1    8900 3600
 	0    -1   -1   0   
 $EndComp
@@ -186,6 +206,8 @@ F 0 "SW1" H 9600 2905 50  0000 C CNN
 F 1 "Reset" H 9600 2814 50  0000 C CNN
 F 2 "mcqn-kicad-lib:SW_SPST_GULLWING" H 9600 2650 50  0001 C CNN
 F 3 "" H 9600 2650 50  0000 C CNN
+F 4 "2435308" H 9600 2650 50  0001 C CNN "Farnell"
+F 5 "http://uk.farnell.com/c-k-components/ksek43g-lfs/tactile-switch-spst-0-05a-32vdc/dp/2435308" H 9600 2650 50  0001 C CNN "Farnell Price/Stock"
 	1    9600 2650
 	0    -1   -1   0   
 $EndComp
@@ -200,6 +222,7 @@ F 0 "P1" H 1619 2625 50  0000 C CNN
 F 1 "CONN_01X09" H 1619 2716 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical" H 1700 3250 50  0001 C CNN
 F 3 "" H 1700 3250 50  0000 C CNN
+F 4 "DNP" H 1700 3250 50  0001 C CNN "Description"
 	1    1700 3250
 	-1   0    0    1   
 $EndComp
@@ -214,6 +237,7 @@ F 0 "P2" H 3728 3291 50  0000 L CNN
 F 1 "CONN_01X09" H 3728 3200 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical" H 3650 3250 50  0001 C CNN
 F 3 "" H 3650 3250 50  0000 C CNN
+F 4 "DNP" H 3650 3250 50  0001 C CNN "Description"
 	1    3650 3250
 	1    0    0    -1  
 $EndComp
@@ -228,6 +252,8 @@ F 0 "R1" V 8600 4000 50  0000 C CNN
 F 1 "R10k" V 8650 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8430 4000 50  0000 C CNN
 F 3 "" H 8500 4000 50  0000 C CNN
+F 4 "2331740" V 8500 4000 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/te-connectivity/crgh0603j10k/res-10k-5-0-2w-0603-thick-film/dp/2331740" V 8500 4000 50  0001 C CNN "Farnell Price/Stock"
 	1    8500 4000
 	-1   0    0    1   
 $EndComp
@@ -270,6 +296,8 @@ F 0 "R2" H 8620 2546 50  0000 L CNN
 F 1 "R10k" H 8620 2455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8480 2500 50  0000 C CNN
 F 3 "" H 8550 2500 50  0000 C CNN
+F 4 "2331740" H 8550 2500 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/te-connectivity/crgh0603j10k/res-10k-5-0-2w-0603-thick-film/dp/2331740" H 8550 2500 50  0001 C CNN "Farnell Price/Stock"
 	1    8550 2500
 	1    0    0    -1  
 $EndComp

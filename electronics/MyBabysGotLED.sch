@@ -41,6 +41,8 @@ F 0 "U2" H 4250 5165 50  0000 C CNN
 F 1 "SN74AHCT125" H 4250 5074 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4250 4600 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf" H 4250 4600 50  0001 C CNN
+F 4 "3006129" H 4250 4600 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/texas-instruments/sn74ahct125d/ic-buffer-gate-quad-3state-smd/dp/3006129" H 4250 4600 50  0001 C CNN "Farnell Price/Stock"
 	1    4250 4600
 	1    0    0    -1  
 $EndComp
@@ -160,6 +162,8 @@ F 0 "C5" H 5465 4596 50  0000 L CNN
 F 1 "0.1uF" H 5465 4505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5388 4400 50  0001 C CNN
 F 3 "~" H 5350 4550 50  0001 C CNN
+F 4 "1759038RL" H 5350 4550 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/multicomp/mc0603f104z250ct/cap-0-1-f-25v-y5v-0603/dp/1759038RL" H 5350 4550 50  0001 C CNN "Farnell Price/Stock"
 	1    5350 4550
 	1    0    0    -1  
 $EndComp
@@ -171,6 +175,8 @@ F 0 "R4" V 3250 4800 50  0000 C CNN
 F 1 "470R" V 3150 4800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2980 4800 50  0001 C CNN
 F 3 "~" H 3050 4800 50  0001 C CNN
+F 4 "2502462" V 3050 4800 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/walsin/wr06x4700ftl/res-470r-1-75v-0603-thick-film/dp/2502462" V 3050 4800 50  0001 C CNN "Farnell Price/Stock"
 	1    3050 4800
 	0    1    1    0   
 $EndComp
@@ -182,6 +188,8 @@ F 0 "R3" V 2843 4500 50  0000 C CNN
 F 1 "470R" V 2934 4500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2980 4500 50  0001 C CNN
 F 3 "~" H 3050 4500 50  0001 C CNN
+F 4 "2502462" V 3050 4500 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/walsin/wr06x4700ftl/res-470r-1-75v-0603-thick-film/dp/2502462" V 3050 4500 50  0001 C CNN "Farnell Price/Stock"
 	1    3050 4500
 	0    1    1    0   
 $EndComp
@@ -245,6 +253,7 @@ F 0 "J3" H 6730 1142 50  0000 L CNN
 F 1 "Serial" H 6730 1051 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6650 1150 50  0001 C CNN
 F 3 "~" H 6650 1150 50  0001 C CNN
+F 4 "DNP" H 6650 1150 50  0001 C CNN "Description"
 	1    6650 1150
 	0    -1   -1   0   
 $EndComp
@@ -256,6 +265,8 @@ F 0 "U3" H 4550 2042 50  0000 C CNN
 F 1 "LM1117-3.3" H 4550 1951 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4550 1800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 4550 1800 50  0001 C CNN
+F 4 "1202826RL" H 4550 1800 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/stmicroelectronics/ld1117s33tr/v-reg-ldo-3-3v-smd-1117-sot-223/dp/1202826RL" H 4550 1800 50  0001 C CNN "Farnell Price/Stock"
 	1    4550 1800
 	1    0    0    -1  
 $EndComp
@@ -264,9 +275,11 @@ L Device:C C3
 U 1 1 5F90ADAE
 P 3900 1950
 F 0 "C3" H 4015 1996 50  0000 L CNN
-F 1 "100nF" H 4015 1905 50  0000 L CNN
+F 1 "0.1uF" H 4015 1905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3938 1800 50  0001 C CNN
 F 3 "~" H 3900 1950 50  0001 C CNN
+F 4 "1759038RL" H 3900 1950 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/multicomp/mc0603f104z250ct/cap-0-1-f-25v-y5v-0603/dp/1759038RL" H 3900 1950 50  0001 C CNN "Farnell Price/Stock"
 	1    3900 1950
 	1    0    0    -1  
 $EndComp
@@ -276,8 +289,10 @@ U 1 1 5F90B2C7
 P 5100 1950
 F 0 "C4" H 5215 1996 50  0000 L CNN
 F 1 "10uF" H 5215 1905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5138 1800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5138 1800 50  0001 C CNN
 F 3 "~" H 5100 1950 50  0001 C CNN
+F 4 "2320887RL" H 5100 1950 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/multicomp/mc1206x106k250ct/cap-10-f-25v-10-x5r-1206/dp/2320887RL" H 5100 1950 50  0001 C CNN "Farnell Price/Stock"
 	1    5100 1950
 	1    0    0    -1  
 $EndComp
@@ -292,8 +307,6 @@ Wire Wire Line
 Connection ~ 4550 2100
 Wire Wire Line
 	3900 2100 3900 2700
-Wire Wire Line
-	3900 2700 3300 2700
 Connection ~ 3900 2100
 Connection ~ 2400 2700
 Wire Wire Line
@@ -328,6 +341,8 @@ F 0 "C1" H 1918 4496 50  0000 L CNN
 F 1 "1000uF" H 1918 4405 50  0000 L CNN
 F 2 "mcqn-kicad-lib:c_elec_12.5x12.5" H 1838 4300 50  0001 C CNN
 F 3 "~" H 1800 4450 50  0001 C CNN
+F 4 "2326201" H 1800 4450 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/panasonic/eeefk1e102aq/cap-1000-f-25v-radial-smd/dp/2326201" H 1800 4450 50  0001 C CNN "Farnell Price/Stock"
 	1    1800 4450
 	1    0    0    -1  
 $EndComp
@@ -357,31 +372,24 @@ F 0 "R5" V 4143 2400 50  0000 C CNN
 F 1 "470R" V 4234 2400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4280 2400 50  0001 C CNN
 F 3 "~" H 4350 2400 50  0001 C CNN
+F 4 "2502462" V 4350 2400 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/walsin/wr06x4700ftl/res-470r-1-75v-0603-thick-film/dp/2502462" V 4350 2400 50  0001 C CNN "Farnell Price/Stock"
 	1    4350 2400
 	0    1    1    0   
 $EndComp
 $Comp
 L Transistor_BJT:PZT2222A Q1
 U 1 1 5F963FC6
-P 3400 2400
-F 0 "Q1" H 3591 2446 50  0000 L CNN
-F 1 "PZT2222A" H 3591 2355 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3600 2325 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 3400 2400 50  0001 L CNN
-	1    3400 2400
+P 3550 2400
+F 0 "Q1" H 3741 2446 50  0000 L CNN
+F 1 "NJT4031NT1G" H 3741 2355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3750 2325 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 3550 2400 50  0001 L CNN
+F 4 "2533335" H 3550 2400 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/on-semiconductor/njt4031nt1g/transistor-bipol-npn-40v/dp/2533335" H 3550 2400 50  0001 C CNN "Farnell Price/Stock"
+	1    3550 2400
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	2850 2100 3300 2100
-Wire Wire Line
-	3300 2100 3300 2200
-Wire Wire Line
-	3300 2600 3300 2700
-Connection ~ 3300 2700
-Wire Wire Line
-	3300 2700 2400 2700
-Wire Wire Line
-	3600 2400 4200 2400
 Wire Wire Line
 	4500 2400 7950 2400
 Wire Wire Line
@@ -432,6 +440,8 @@ F 0 "F1" V 3075 1800 50  0000 C CNN
 F 1 "Polyfuse" V 3166 1800 50  0000 C CNN
 F 2 "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 3350 1600 50  0001 L CNN
 F 3 "~" H 3300 1800 50  0001 C CNN
+F 4 "1861167RL" V 3300 1800 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/multicomp/mc36225/fuse-ptc-reset-smd-24v-1-1a/dp/1861167RL" V 3300 1800 50  0001 C CNN "Farnell Price/Stock"
 	1    3300 1800
 	0    1    1    0   
 $EndComp
@@ -493,4 +503,17 @@ Wire Wire Line
 Connection ~ 3050 1800
 Wire Wire Line
 	3050 1800 3150 1800
+Wire Wire Line
+	2400 2700 3450 2700
+Wire Wire Line
+	4200 2400 3750 2400
+Wire Wire Line
+	3450 2200 3450 2100
+Wire Wire Line
+	2850 2100 3450 2100
+Wire Wire Line
+	3450 2600 3450 2700
+Connection ~ 3450 2700
+Wire Wire Line
+	3450 2700 3900 2700
 $EndSCHEMATC

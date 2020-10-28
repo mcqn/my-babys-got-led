@@ -1,0 +1,22 @@
+References	Qty	Description	Digikey	Digikey Price/Stock	Farnell	Farnell Price/Stock	Manuf#
+C1	1				2326201	https://uk.farnell.com/panasonic/eeefk1e102aq/cap-1000-f-25v-radial-smd/dp/2326201	
+C2	1				2310565	https://uk.farnell.com/multicomp/mc0603b473k250ct/cap-0-047-f-25v-10-x7r-0603/dp/1759031	
+C3, C5	2				1759038RL	https://uk.farnell.com/multicomp/mc0603f104z250ct/cap-0-1-f-25v-y5v-0603/dp/1759038RL	
+C4	1				2320887RL	https://uk.farnell.com/multicomp/mc1206x106k250ct/cap-10-f-25v-10-x5r-1206/dp/2320887RL	
+D4, D5, D6	3				2290332	https://uk.farnell.com/kingbright/kp-2012seck/led-0805-250mcd-orange/dp/2290332	
+F1	1				1861167RL	https://uk.farnell.com/multicomp/mc36225/fuse-ptc-reset-smd-24v-1-1a/dp/1861167RL	
+F2	1						
+J1	1				2517880	https://uk.farnell.com/imo-precision-controls/21-95mv-4-e/terminal-block-header-4pos-th/dp/2517880	
+J2	1						
+J3	1	DNP					
+P1, P2	2	DNP					
+P3	1		WM9738-ND	https://www.digikey.co.uk/products/en?keywords=Molex%2044206-0007			
+Q1	1				2533335	https://uk.farnell.com/on-semiconductor/njt4031nt1g/transistor-bipol-npn-40v/dp/2533335	
+R1, R2, R10	3				2331740	https://uk.farnell.com/te-connectivity/crgh0603j10k/res-10k-5-0-2w-0603-thick-film/dp/2331740	
+R3, R4, R5	3				2502462	https://uk.farnell.com/walsin/wr06x4700ftl/res-470r-1-75v-0603-thick-film/dp/2502462	
+R6, R7, R8, R9	4				2502470	https://uk.farnell.com/walsin/wr06x5600ftl/res-560r-1-75v-0603-thick-film/dp/2502470	
+SW1	1				2435308	http://uk.farnell.com/c-k-components/ksek43g-lfs/tactile-switch-spst-0-05a-32vdc/dp/2435308	
+T1, T2	2	DNP					
+U1	1						ESP-WROOM-02
+U2	1				3006129	https://uk.farnell.com/texas-instruments/sn74ahct125d/ic-buffer-gate-quad-3state-smd/dp/3006129	
+U3	1				1202826RL	https://uk.farnell.com/stmicroelectronics/ld1117s33tr/v-reg-ldo-3-3v-smd-1117-sot-223/dp/1202826RL	
