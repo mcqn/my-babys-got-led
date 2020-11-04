@@ -113,47 +113,22 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x03 J2
 U 1 1 5F8EED32
-P 2350 4500
-F 0 "J2" H 2268 4817 50  0000 C CNN
-F 1 "WS2812" H 2268 4726 50  0000 C CNN
-F 2 "" H 2350 4500 50  0001 C CNN
-F 3 "~" H 2350 4500 50  0001 C CNN
-	1    2350 4500
+P 2350 4800
+F 0 "J2" H 2268 5117 50  0000 C CNN
+F 1 "WS2812" H 2268 5026 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2350 4800 50  0001 C CNN
+F 3 "~" H 2350 4800 50  0001 C CNN
+F 4 "1593412" H 2350 4800 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/multicomp/2211s-03g/header-1-row-vert-3way/dp/1593412" H 2350 4800 50  0001 C CNN "Farnell Price/Stock"
+	1    2350 4800
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J1
-U 1 1 5F8F55BB
-P 1200 4500
-F 0 "J1" H 1118 4817 50  0000 C CNN
-F 1 "APA102" H 1118 4726 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_5-G-5,08_1x05_P5.08mm_Vertical" H 1200 4500 50  0001 C CNN
-F 3 "~" H 1200 4500 50  0001 C CNN
-F 4 "2517880" H 1200 4500 50  0001 C CNN "Farnell"
-F 5 "https://uk.farnell.com/imo-precision-controls/21-95mv-4-e/terminal-block-header-4pos-th/dp/2517880" H 1200 4500 50  0001 C CNN "Farnell Price/Stock"
-	1    1200 4500
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 3900 2800 4400
-Wire Wire Line
-	2800 4400 2550 4400
 Wire Wire Line
 	1600 3900 1600 4400
 Wire Wire Line
 	1600 4400 1400 4400
 Wire Wire Line
-	2550 4500 2800 4500
-Wire Wire Line
 	1400 4600 1500 4600
-Wire Wire Line
-	1500 4600 1500 4800
-Wire Wire Line
-	1400 4500 1600 4500
-Wire Wire Line
-	1600 4500 1600 4700
-Wire Wire Line
-	2800 4700 2800 4500
 $Comp
 L Device:C C5
 U 1 1 5F900C18
@@ -194,9 +169,6 @@ F 5 "https://uk.farnell.com/walsin/wr06x4700ftl/res-470r-1-75v-0603-thick-film/d
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2800 4500 2900 4500
-Connection ~ 2800 4500
-Wire Wire Line
 	1400 4700 1400 5200
 Wire Wire Line
 	4850 5200 5350 5200
@@ -210,8 +182,6 @@ Wire Wire Line
 Wire Wire Line
 	5350 3900 5350 4300
 Connection ~ 5350 4300
-Wire Wire Line
-	2550 4600 2550 5200
 Wire Wire Line
 	3900 4300 3800 4300
 Wire Wire Line
@@ -261,6 +231,8 @@ $Comp
 L Regulator_Linear:LM1117-3.3 U3
 U 1 1 5F90A6A8
 P 4550 1800
+AR Path="/5F90A6A8" Ref="U3"  Part="1" 
+AR Path="/5F8DAD46/5F90A6A8" Ref="U3"  Part="1" 
 F 0 "U3" H 4550 2042 50  0000 C CNN
 F 1 "LM1117-3.3" H 4550 1951 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4550 1800 50  0001 C CNN
@@ -336,34 +308,16 @@ NoConn ~ 6950 1350
 $Comp
 L Device:CP C1
 U 1 1 5F942FA9
-P 1800 4450
-F 0 "C1" H 1918 4496 50  0000 L CNN
-F 1 "1000uF" H 1918 4405 50  0000 L CNN
-F 2 "mcqn-kicad-lib:c_elec_12.5x12.5" H 1838 4300 50  0001 C CNN
-F 3 "~" H 1800 4450 50  0001 C CNN
-F 4 "2326201" H 1800 4450 50  0001 C CNN "Farnell"
-F 5 "https://uk.farnell.com/panasonic/eeefk1e102aq/cap-1000-f-25v-radial-smd/dp/2326201" H 1800 4450 50  0001 C CNN "Farnell Price/Stock"
-	1    1800 4450
+P 1850 4250
+F 0 "C1" H 1968 4296 50  0000 L CNN
+F 1 "1000uF" H 1968 4205 50  0000 L CNN
+F 2 "mcqn-kicad-lib:c_elec_12.5x12.5" H 1888 4100 50  0001 C CNN
+F 3 "~" H 1850 4250 50  0001 C CNN
+F 4 "2326201" H 1850 4250 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/panasonic/eeefk1e102aq/cap-1000-f-25v-radial-smd/dp/2326201" H 1850 4250 50  0001 C CNN "Farnell Price/Stock"
+	1    1850 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1600 3900 1800 3900
-Wire Wire Line
-	1600 4700 2800 4700
-Wire Wire Line
-	1500 4800 2900 4800
-Wire Wire Line
-	1400 5200 1800 5200
-Connection ~ 1800 3900
-Wire Wire Line
-	1800 3900 2800 3900
-Wire Wire Line
-	1800 3900 1800 4300
-Wire Wire Line
-	1800 4600 1800 5200
-Connection ~ 1800 5200
-Wire Wire Line
-	1800 5200 2550 5200
 $Comp
 L Device:R R5
 U 1 1 5F958049
@@ -411,20 +365,21 @@ Wire Wire Line
 	3200 4800 3900 4800
 Wire Wire Line
 	3200 4500 3900 4500
-Connection ~ 2800 3900
 $Comp
 L Device:Fuse F2
 U 1 1 5F9984AE
 P 4850 3650
 F 0 "F2" H 4910 3696 50  0000 L CNN
 F 1 "Fuse" H 4910 3605 50  0000 L CNN
-F 2 "" V 4780 3650 50  0001 C CNN
+F 2 "mcqn-kicad-lib:Keystone_3557-2_Blade_Fuseholder" V 4780 3650 50  0001 C CNN
 F 3 "~" H 4850 3650 50  0001 C CNN
+F 4 "2292904" H 4850 3650 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/keystone/3557-2/fuse-holder-0-8x2-8mm-pcb-mount/dp/2292904" H 4850 3650 50  0001 C CNN "Farnell Price/Stock"
+F 6 "36-3557-2-ND" H 4850 3650 50  0001 C CNN "Digikey"
+F 7 "https://www.digikey.co.uk/product-detail/en/keystone-electronics/3557-2/36-3557-2-ND/2137305" H 4850 3650 50  0001 C CNN "Digikey Price/Stock"
 	1    4850 3650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2800 3900 4850 3900
 Wire Wire Line
 	4850 3400 4850 3500
 Wire Wire Line
@@ -452,9 +407,9 @@ Text GLabel 8500 2500 0    50   Input ~ 0
 LED_Clk
 Text GLabel 8500 2600 0    50   Input ~ 0
 LED_Data
-Text GLabel 3700 4400 0    50   Input ~ 0
-LED_Data
 Text GLabel 3700 4700 0    50   Input ~ 0
+LED_Data
+Text GLabel 3700 4400 0    50   Input ~ 0
 LED_Clk
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -516,4 +471,51 @@ Wire Wire Line
 Connection ~ 3450 2700
 Wire Wire Line
 	3450 2700 3900 2700
+Wire Wire Line
+	1400 5200 1850 5200
+Wire Wire Line
+	2550 4900 2550 5200
+Wire Wire Line
+	2550 4800 2750 4800
+Wire Wire Line
+	1400 4500 2900 4500
+Wire Wire Line
+	2550 3900 2550 4700
+Connection ~ 2550 3900
+Wire Wire Line
+	2550 3900 4850 3900
+Wire Wire Line
+	1600 3900 1850 3900
+Wire Wire Line
+	1850 4100 1850 3900
+Connection ~ 1850 3900
+Wire Wire Line
+	1850 3900 2550 3900
+Wire Wire Line
+	1850 4400 1850 5200
+Connection ~ 1850 5200
+Wire Wire Line
+	1850 5200 2550 5200
+Wire Wire Line
+	1500 5050 2750 5050
+Wire Wire Line
+	2750 5050 2750 4800
+Wire Wire Line
+	1500 4600 1500 5050
+Connection ~ 2750 4800
+Wire Wire Line
+	2750 4800 2900 4800
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5F8F55BB
+P 1200 4600
+F 0 "J1" H 1118 4917 50  0000 C CNN
+F 1 "APA102" H 1118 4826 50  0000 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_4-G-5,08_1x04_P5.08mm_Vertical" H 1200 4600 50  0001 C CNN
+F 3 "~" H 1200 4600 50  0001 C CNN
+F 4 "2517880" H 1200 4600 50  0001 C CNN "Farnell"
+F 5 "https://uk.farnell.com/imo-precision-controls/21-95mv-4-e/terminal-block-header-4pos-th/dp/2517880" H 1200 4600 50  0001 C CNN "Farnell Price/Stock"
+	1    1200 4600
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
