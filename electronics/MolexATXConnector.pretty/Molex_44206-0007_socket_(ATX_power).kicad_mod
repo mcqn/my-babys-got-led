@@ -1,4 +1,4 @@
-(module "Molex_44206-0007_socket_(ATX_power)" (layer F.Cu) (tedit 5F975B90)
+(module "Molex_44206-0007_socket_(ATX_power)" (layer F.Cu) (tedit 5FC15D46)
   (fp_text reference REF** (at -0.06 6.57) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -38,4 +38,9 @@
   (pad 24 thru_hole circle (at -23.1 -2.75) (size 2.2 2.2) (drill 1.4) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 27.8 -2.29) (size 3 3) (drill 3) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -27.8 -2.29) (size 3 3) (drill 3) (layers *.Cu *.Mask))
+  (model /home/adrian/sandbox/projects/mcqn-kicad-lib/442060007_sp.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

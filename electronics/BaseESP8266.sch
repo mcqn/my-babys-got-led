@@ -78,7 +78,7 @@ F 0 "C2" V 10498 3800 50  0000 C CNN
 F 1 "C47nF" V 10589 3800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10788 3650 50  0001 C CNN
 F 3 "" H 10750 3800 50  0000 C CNN
-F 4 "2310565" V 10750 3800 50  0001 C CNN "Farnell"
+F 4 "1759031" V 10750 3800 50  0001 C CNN "Farnell"
 F 5 "https://uk.farnell.com/multicomp/mc0603b473k250ct/cap-0-047-f-25v-10-x7r-0603/dp/1759031" V 10750 3800 50  0001 C CNN "Farnell Price/Stock"
 	1    10750 3800
 	1    0    0    -1  
