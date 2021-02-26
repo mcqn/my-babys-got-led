@@ -1,4 +1,4 @@
-16797223385644625
+16798837505652625
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -74486,6 +74486,13 @@ Crystal_SMD_ABS25
 0
 4
 4
+mcqn-kicad-lib
+Fuseholder_Cylinder-5x20mm_Wurth_WR-FSH_Horizontal
+Fuseholder horizontal open, 5x20mm, 500V, 16A, Schurter 0031.8201, https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OGN.pdf
+Fuseholder horizontal open 5x20 Schurter 0031.8201
+0
+2
+2
 mcqn-kicad-lib
 Keystone_3557-2_Blade_Fuseholder
 
