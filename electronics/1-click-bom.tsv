@@ -1,13 +1,14 @@
 References	Qty	Description	Digikey	Digikey Price/Stock	Farnell	Farnell Price/Stock	Manuf#
-C1	1				2326201	https://uk.farnell.com/panasonic/eeefk1e102aq/cap-1000-f-25v-radial-smd/dp/2326201	
-C2	1				2310565	https://uk.farnell.com/multicomp/mc0603b473k250ct/cap-0-047-f-25v-10-x7r-0603/dp/1759031	
+5V_T1, Clk_T1, Data_T1, PWR_ON_T1	4						
+C1, C6, C7	3				2254313	https://uk.farnell.com/panasonic/eeefc1e471p/cap-470-f-25v-radial-smd/dp/2254313	
+C2	1				1759031	https://uk.farnell.com/multicomp/mc0603b473k250ct/cap-0-047-f-25v-10-x7r-0603/dp/1759031	
 C3, C5	2				1759038RL	https://uk.farnell.com/multicomp/mc0603f104z250ct/cap-0-1-f-25v-y5v-0603/dp/1759038RL	
 C4	1				2320887RL	https://uk.farnell.com/multicomp/mc1206x106k250ct/cap-10-f-25v-10-x5r-1206/dp/2320887RL	
 D4, D5, D6	3				2290332	https://uk.farnell.com/kingbright/kp-2012seck/led-0805-250mcd-orange/dp/2290332	
 F1	1				1861167RL	https://uk.farnell.com/multicomp/mc36225/fuse-ptc-reset-smd-24v-1-1a/dp/1861167RL	
-F2	1						
-J1	1				2517880	https://uk.farnell.com/imo-precision-controls/21-95mv-4-e/terminal-block-header-4pos-th/dp/2517880	
-J2	1						
+F2, F3, F4	3				2471681	https://uk.farnell.com/wurth-elektronik/696107003002/fuse-holder-5x20mm-pcb/dp/2471681	
+J1	1				2517880	https://uk.farnell.com/imo-precision-controls/21-95mv-8-e/terminal-block-header-8pos-th/dp/2517883	
+J2	1				1593412	https://uk.farnell.com/multicomp/2211s-03g/header-1-row-vert-3way/dp/1593412	
 J3	1	DNP					
 P1, P2	2	DNP					
 P3	1		WM9738-ND	https://www.digikey.co.uk/products/en?keywords=Molex%2044206-0007			
