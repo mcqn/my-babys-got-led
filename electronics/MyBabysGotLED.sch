@@ -532,7 +532,7 @@ F 0 "J1" H 1018 4225 50  0000 C CNN
 F 1 "APA102" H 1018 4316 50  0000 C CNN
 F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_8-G-5,08_1x08_P5.08mm_Vertical" H 1100 4850 50  0001 C CNN
 F 3 "~" H 1100 4850 50  0001 C CNN
-F 4 "2517880" H 1100 4850 50  0001 C CNN "Farnell"
+F 4 "2517883" H 1100 4850 50  0001 C CNN "Farnell"
 F 5 "https://uk.farnell.com/imo-precision-controls/21-95mv-8-e/terminal-block-header-8pos-th/dp/2517883" H 1100 4850 50  0001 C CNN "Farnell Price/Stock"
 	1    1100 4850
 	-1   0    0    1   
