@@ -1,0 +1,28 @@
+---
+- name: My Babys Got LED Test and Programming Rig for a Raspberry Pi
+  hosts: test-rig
+  vars:
+    pi_name: mbgl-tap
+  remote_user: pi
+  become: yes
+  become_method: sudo
+  # Include whichever roles make sense here
+  roles:
+    - nm-wireless
+  #  - base-nodered
+  #  - ssh-tunnel
+
+  pre_tasks:
+    - name: Update apt
+      apt: upgrade=dist update_cache=yes
+      become: true
+
+  tasks:
+  - name: Change Pis name
+    hostname: name="{{ pi_name }}"
+  - name: Update hosts file too
+    replace: dest=/etc/hosts regexp='raspberrypi' replace="{{ pi_name }}"
+  - name: Install git
+    apt: name=git state=present
+  - name: Ready for you to customise!
+    debug: msg='Replace this step with the ones you need to set up the Raspberry Pi to do what you want it to do'

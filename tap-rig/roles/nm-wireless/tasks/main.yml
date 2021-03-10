@@ -1,0 +1,18 @@
+# Configure wireless settings for network-manager
+# Assumes the network(s) to be configured are listed in the variable wifi_networks.
+# For an example, see defaults/example.yml.  
+# Copy that into vars/main.yml and modify it for the easiest way to set things up
+---
+  - name: Ensure network-manager is installed
+    apt: name=network-manager state=present update_cache=yes
+
+  - name: Create the connection config files
+    template: 
+      src: templates/connection.j2
+      dest: /etc/NetworkManager/system-connections/{{ item.SSID }}
+      owner: root
+      group: root
+      mode: 0600
+    with_items: "{{ wifi_networks }}"
+    notify:
+    - Restart network-manager

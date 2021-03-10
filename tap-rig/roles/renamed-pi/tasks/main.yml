@@ -1,0 +1,13 @@
+# Change hostname (on a Raspberry Pi)
+# Assumes you define the role with the name as a variable, e.g.
+#   vars:
+#     pi_name: REPLACE-THIS-WITH-THE-NAME
+#   roles:
+#   - { role: renamed-pi }
+---
+  - name: Change Pis name
+    hostname: name="{{ pi_name }}"
+  - name: Update hosts file too
+    replace: dest=/etc/hosts regexp='raspberrypi' replace="{{ pi_name }}"
+  - name: Install mDNS so we can connect as {{ pi_name }}.local
+    apt: name=libnss-mdns state=present

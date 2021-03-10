@@ -1,0 +1,16 @@
+# UUIDs generated with uuidgen
+
+OneWifiNetwork:
+  SSID: mywifinetwork
+  password: supersecretpassword
+  UUID: 28dfb545-0eb1-4bf0-9a79-ebff4e1bc08b
+
+AnotherNetwork:
+  SSID: AnotherNetworkName
+  password: differentsecretpassword
+  UUID: 7830f565-ed75-4f94-9e72-e52cb5f4cd28
+
+wifi_networks:
+  - "{{ OneWifiNetwork }}"
+  - "{{ AnotherNetwork }}"
+

@@ -1,0 +1,22 @@
+[connection]
+id={{ item.SSID }}
+uuid={{ item.UUID }}
+type=wifi
+autoconnect=true
+#interface-name=wlxfcb4e6bfab85
+permissions=
+
+[wifi]
+mode=infrastructure
+ssid={{ item.SSID }}
+
+[wifi-security]
+key-mgmt=wpa-psk
+auth-alg=open
+psk={{ item.password }}
+
+[ipv4]
+method=auto
+
+[ipv6]
+method=auto
