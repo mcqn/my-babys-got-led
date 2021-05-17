@@ -9,12 +9,12 @@ The finished product is available for sale on Tindie:
 
 [![Buy the board on Tindie](https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png)](https://www.tindie.com/products/21732/?ref=offsite_badges&utm_source=sellers_mcqn_ltd&utm_medium=badges&utm_campaign=badge_large)
 
-![Photo of the finished PCB](MGBLED-Front-Angle.jpg)
+![Photo of the finished PCB](MBGLED-Front-Angle.jpg)
 
-![Photo of the PCB with LED strip and ATX power supply](MGBLED-kit.jpg)
+![Photo of the PCB with LED strip and ATX power supply](MBGLED-kit.jpg)
 
-![Photo of the front of the finished PCB](MGBLED-Front-Direct.jpg)
+![Photo of the front of the finished PCB](MBGLED-Front-Direct.jpg)
 
-![Photo of the front of the finished PCB](MGBLED-Back-Direct.jpg)
+![Photo of the front of the finished PCB](MBGLED-Back-Direct.jpg)
 
 ![The open source hardware mark, and the code UK000031](OSHW_mark_UK000030.png)
