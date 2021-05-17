@@ -11,7 +11,7 @@ The finished product is available for sale on Tindie:
 
 ![Photo of the finished PCB](MBGLED-Front-Angle.jpg)
 
-![Photo of the PCB with LED strip and ATX power supply](MBGLED-kit.jpg)
+![Photo of the PCB with LED strip and ATX power supply](MBGLED-Kit.jpg)
 
 ![Photo of the front of the finished PCB](MBGLED-Front-Direct.jpg)
 
